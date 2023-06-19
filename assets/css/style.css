@@ -1,0 +1,185 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(299.75deg, #B9D5FF 0%, #F6D1FC 98.93%);
+}
+
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+}
+
+.header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 112.5px;
+
+  color: #000000;
+  margin-left: 144PX;
+  margin-top: 372px;
+  margin-right: 184px;
+  margin-bottom: 426px;
+
+}
+
+.header div {
+  color: #9333EA;
+  ;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: 672px;
+  height: 459px;
+
+}
+
+.page__header {
+  width: 672px;
+  height: 47px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+
+.page__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.body__nav {
+  width: 185px;
+  height: 389px;
+  background: transparent;
+}
+
+.body__content {
+  width: 466px;
+  height: 389px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 16px;
+  gap: 52px;
+  /* position: relative; */
+}
+
+.page__header {
+  display: flex;
+}
+
+.nav_header {
+  padding: 12px 0px 12px 16px;
+  color: #9333EA;
+}
+
+.nav {
+  margin-left: 140.5px;
+}
+
+.nav-link {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 36px;
+  font-size: 16px;
+
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.tasks {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.task {
+
+  justify-content: space-between;
+  padding-bottom: 31px;
+  display: flex;
+  margin-right: auto;
+}
+
+.task h5 {
+  display: flex;
+  font-size: 18px;
+  line-height: 21.09px;
+  color: #404040;
+
+}
+
+.task>img {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.task p {
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #6B7280;
+
+}
+
+.task p img {
+  padding-left: 9.35px;
+
+}
+
+
+.task_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #F3F3F3;
+  border-radius: 5px;
+  margin-right: ;
+}
+
+.text_box {
+  padding: 8px 10px;
+  gap: 330px;
+
+  width: 434px;
+  height: 40px;
+  border: none;
+  background: #F3F3F3;
+}
+
+
+.task_input .task_input_navigator {
+  padding: 5px;
+  background: #F3F3F3;
+
+}
+
+.task_input .task_attach {
+  width: 19.98px;
+  height: 21.3;
+  border: 2px solid #9333EA;
+}
